@@ -1,2 +1,2 @@
-# Hexlet-Practice
-Practical tasks for the passed courses
+# Practice
+Simple practical tasks on ES6
