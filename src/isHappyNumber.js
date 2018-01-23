@@ -1,5 +1,3 @@
-//import { length } from './strings'; // eslint-disable-line
-
 const sumOfSquareDigits = (num) => {
   const numAsStr = String(num);
   let sum = 0;

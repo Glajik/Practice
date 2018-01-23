@@ -5,3 +5,4 @@ package-lock.json
 .vscode
 .eslintrc.yml
 Makefile
+sequences

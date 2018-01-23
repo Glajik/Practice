@@ -1,4 +1,4 @@
-import testFunction from '../sumSquareDifference';
+import testFunction from '../src/sumSquareDifference';
 
 describe('Data', () => {
 	it('#sumSquareDifference', () => {
