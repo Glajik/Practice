@@ -1,4 +1,4 @@
-import { make, numer, denom, add, toString, isEqual, sub, mul, div } from '../rational';
+import { make, numer, denom, add, toString, isEqual, sub, mul, div } from '../src/rational';
 
 const rat1 = make(2, 3);
 const rat12 = make(1, 4);

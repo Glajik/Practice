@@ -1,4 +1,4 @@
-import solution from '../withoutTwoZeros';
+import solution from '../src/withoutTwoZeros';
 
 describe('Data', () => {
 	it('#withoutTwoZeros', () => {

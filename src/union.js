@@ -1,4 +1,5 @@
-import { l, isEmpty, cons, reduce, has, reverse, toString as listToString } from '../sequences/pairs-data';
+import { l, isEmpty, cons, toString as listToString } from '../sequences/pairs-data';
+import { reduce, has, reverse } from '../sequences/lists';
 
 export default (list1, list2) => {
   const f = (el, acc) => !has(acc, el) ? cons(el, acc) : acc;

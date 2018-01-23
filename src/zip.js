@@ -1,4 +1,5 @@
-import { l, isEmpty, head, tail, cons, reverse, toString as listToString } from '../sequences/pairs-data'; // eslint-disable-line
+import { l, isEmpty, head, tail, cons, toString as listToString } from '../sequences/pairs-data'; // eslint-disable-line
+import { reverse } from '../sequences/lists';
 
 const zip = (list1, list2) => {
   const iter = (mylist1, mylist2, result) => {

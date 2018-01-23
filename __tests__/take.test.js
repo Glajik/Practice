@@ -1,5 +1,5 @@
-import { l, toString as listToString } from 'hexlet-pairs-data';
-import take from '../take';
+import { l, toString as listToString } from '../sequences/pairs-data';
+import take from '../src/take';
 
 describe('Take', () => {
   it('set 1', () => {

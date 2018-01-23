@@ -1,4 +1,4 @@
-import isPowerOfThree from '../isPowerOfThree';
+import isPowerOfThree from '../src/isPowerOfThree';
 
 describe('isPowerOfThree', () => {
   it('should work', () => {

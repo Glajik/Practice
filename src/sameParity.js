@@ -1,5 +1,6 @@
 // eslint-disable-next-line
-import { l, isEmpty, head, tail, filter, toString as listToString } from '../sequences/pairs-data';
+import { l, isEmpty, head, tail, toString as listToString } from '../sequences/pairs-data';
+import { filter } from '../sequences/lists';
 
 const sameParity = (list) => {
   if (isEmpty(list)) return l();

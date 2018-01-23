@@ -12,3 +12,5 @@ const isHappyTicket = (num) => {
   const right = ns.substr(3, 3);
   return sum(left) === sum(right) ? true : false;
 };
+
+export default isHappyTicket;
