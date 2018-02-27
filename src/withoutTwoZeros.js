@@ -11,19 +11,11 @@ const countTwoZeros = (zeros, ones) => {
   const subtree2 = countTwoZeros(zeros, ones - 1);
   if (subtree1 > 0 || subtree2 > 0) return subtree1 + subtree2 + 1;
   return 0;
-}
+};
 
 const solution = (zeros, ones) => {
-  console.log(`--- Inpu - zeros:${zeros} ones:${ones} -----------------------`);
-
-  // Количество перестановок с повторением
-  const count = F(zeros + ones) / ( F(zeros) * F(ones) );
-  console.log (`Число перестановок = ${count}`);
-
-  // Количество кобинаций с двумя нулями
-  const result = count - countTwoZeros(zeros, ones);
-  console.log(`Число перестановок без двух нулей  ${result}`);
-  return result;
+  const count = F(zeros + ones) / (F(zeros) * F(ones));
+  return count - countTwoZeros(zeros, ones);
 };
 
 export default solution;
